@@ -3,6 +3,7 @@ import path from "path";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  distDir: "build",
   env: {
     contentFolderPath: path.join(process.cwd(), "content"),
   },
