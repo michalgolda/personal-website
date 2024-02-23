@@ -4,9 +4,9 @@ import "aos/dist/aos.css";
 import { Body } from "@/app/_components";
 import { NavContextProvider } from "./_context/navContext";
 
-export const viewport = {
-  minimumScale: 1,
-};
+// export const viewport = {
+//   minimumScale: 1,
+// };
 
 export const metadata: Metadata = {
   title: "Dedykowane strony internetowe i aplikacje webowe - Michał Gołda",
